@@ -116,33 +116,32 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
         }
         
-        body {
-            background: #fff;
-            padding: 0;
-            margin: 0;
-            border: 15px solid;
-            text-align: left;
-            border-image: url(https://s.cdpn.io/3/border-tv_1.png) 25% repeat;
-            line-height: 1;
-            background: w;
-        }
-        
-        video {
-            width: 100vw;
-        }
-        
-    #video-player {
+    body {
+        background: #fff;
+        padding: 0;
+        margin: 0;
+        border: 15px solid;
+        text-align: left;
+        border-image: url(https://s.cdpn.io/3/border-tv_1.png) 25% repeat;
+        line-height: 1;
+        background: w;
+    }
+
+    video {
+        width: 100%; /* Set width to 100% */
+        height: auto; /* Allow height to adjust proportionally */
+    }
+
+    #jwplayerDiv {
         width: 100%; /* Set width to 100% */
         max-width: 100vw; /* Ensure it doesn't overflow viewport */
-        height: auto; /* Allow height to adjust proportionally */
-        margin: 10px 0; /* Adjust margin */
-        display: block;
+        margin: 0 auto; /* Center horizontally */
         background-color: #e8e8e8;
         box-shadow: 5px 5px 5px #b3b3b3, -5px -5px 5px #fff;
         border-radius: 10px;
-        padding: 0;
         overflow: hidden;
     }
+
 
         
         * {
