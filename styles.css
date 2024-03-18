@@ -102,12 +102,13 @@ footer {
    color: darkcyan;
    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3)
   }
-  #jwplayerDiv {
-   padding: 47.50% 0 0 0;
-   position: relative;
-   width: relative;
-   box-shadow: 9px 9px 8px #8c8c8c, -29px -29px 58px #fff;
-   f;
-   border-radius: 10px;
-   overflow: hidden
+  body {
+   background: #fff;
+   padding: 0;
+   margin: 0;
+   border: 15px solid;
+   text-align: left;
+   border-image: url(https://s.cdpn.io/3/border-tv_1.png) 25% repeat;
+   line-height: 1;
+   background: w
   }
