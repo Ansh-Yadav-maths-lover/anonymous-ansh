@@ -178,7 +178,7 @@ footer {
    margin: 0;
    border: 15px solid;
    text-align: left;
-   border-image: url(https://s.cdpn.io/3/border-tv_1.png) 25% repeat;
+   border-image: url("https://www.colorhexa.com/e8e8e8.png") 25% repeat;
    line-height: 1;
    background: w
   }
