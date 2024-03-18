@@ -4,8 +4,196 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live TV</title>
-    <link rel="stylesheet" href="styles.css">
+    
 </head>
+<style>
+    body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #002147;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #002147;
+}
+
+.channel-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+footer {
+    background-color: #002147;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+  .program-info {
+   width: auto;
+   height: auto;
+   margin-top: 10px;
+   margin-bottom: 30px;
+   display: block;
+   background-color: #e8e8e8;
+   box-shadow: 5px 5px 5px #b3b3b3, -5px -5px 5px #fff;
+   border-radius: 10px;
+   padding: 10px
+  }
+
+  .logo {
+   display: inline-block;
+   width: 80px;
+   height: 80px;
+   margin-right: 10px;
+   background-color: #fff;
+   border-radius: 50%;
+   box-shadow: 5px 5px 10px #b3b3b3, -5px -5px 10px #fff
+  }
+
+  .channel-name {
+   font-family: 'Fjalla One', sans-serif;
+   font-weight: 700;
+   color: lightmagenta;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+   margin-top: 30px;
+   font-size: 1.5rem;
+   position: absolute
+  }
+
+  .s-n {
+   font-family: 'Gloock', serif;
+   font-weight: 700;
+   color: #333;
+   margin-top: 0;
+   font-size: 1.5rem;
+   position: absolute;
+   color: darkcyan;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, .3)
+  }
+  #jwplayerDiv {
+   padding: 47.50% 0 0 0;
+   position: relative;
+   width: 90%;
+   box-shadow: 9px 9px 8px #8c8c8c, -29px -29px 58px #fff;
+   f;
+   border-radius: 10px;
+   overflow: hidden
+  }
+
+  ;
+
+  html {
+   background: #fff;
+   padding: 0;
+   margin: 0
+  }
+
+  a {
+   color: #000;
+   font-size: 18px;
+   text-decoration: none
+  }
+
+  h4 {
+   color: #000
+  }
+
+  p {
+   color: #000
+  }
+
+  video {
+   width: 100vw
+  }
+
+  button {
+   box-shadow: 1px 1px 1px #b3b3b3, -1px -1px 1px #fff;
+   border-radius: 5px;
+   padding: 2px
+  }
+
+  button:hover {
+   border: 1px solid rgb(255, 60, 140)
+  }
+
+  #video-player {
+   width: auto;
+   height: auto;
+   margin: 10px;
+   display: block;
+   background-color: #e8e8e8;
+   box-shadow: 5px 5px 5px #b3b3b3, -5px -5px 5px #fff;
+   border-radius: 10px;
+   padding: 0;
+   overflow: hidden
+  }
+  * {
+   box-sizing: border-box
+  }
+
+  html {
+   height: 100%
+  }
+
+  body {
+   min-height: 100%
+  }
+
+  body {
+   background: #fff;
+   padding: 0;
+   margin: 0;
+   border: 15px solid;
+   text-align: left;
+   border-image: url(https://s.cdpn.io/3/border-tv_1.png) 25% repeat;
+   line-height: 1;
+   background: w
+  }
+
+</style>
+    
 <body>
     <header>
         <div class="container">
