@@ -1,4 +1,4 @@
-body {
+    body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -54,7 +54,7 @@ section h2 {
 }
 
 footer {
-    background-color: #002147;
+    background-color: #e8e8e8;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -89,7 +89,7 @@ footer {
    color: lightmagenta;
    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
    margin-top: 30px;
-   font-size: 1.5rem;
+   font-size: 1.1rem;
    position: absolute
   }
 
@@ -98,7 +98,7 @@ footer {
    font-weight: 700;
    color: #333;
    margin-top: 0;
-   font-size: 1.5rem;
+   font-size: 1.1rem;
    position: absolute;
    color: darkcyan;
    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3)
@@ -182,3 +182,4 @@ footer {
    line-height: 1;
    background: w
   }
+
