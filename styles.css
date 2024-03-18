@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -111,4 +112,31 @@ footer {
    border-image: url(https://s.cdpn.io/3/border-tv_1.png) 25% repeat;
    line-height: 1;
    background: w
+  }
+  video {
+   width: 100vw
+  }
+  #video-player {
+   width: auto;
+   height: auto;
+   margin: 10px;
+   display: block;
+   background-color: #e8e8e8;
+   box-shadow: 5px 5px 5px #b3b3b3, -5px -5px 5px #fff;
+   border-radius: 10px;
+   padding: 0;
+   overflow: hidden
+  }
+  * {
+   box-sizing: border-box
+  }
+
+  #jwplayerDiv {
+   padding: 47.50% 0 0 0;
+   position: relative;
+   width: 90%;
+   
+   f;
+   border-radius: 10px;
+   
   }
