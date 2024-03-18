@@ -131,17 +131,19 @@
             width: 100vw;
         }
         
-        #video-player {
-            width: auto;
-            height: auto;
-            margin: 10px;
-            display: block;
-            background-color: #e8e8e8;
-            box-shadow: 5px 5px 5px #b3b3b3, -5px -5px 5px #fff;
-            border-radius: 10px;
-            padding: 0;
-            overflow: hidden;
-        }
+    #video-player {
+        width: 100%; /* Set width to 100% */
+        max-width: 100vw; /* Ensure it doesn't overflow viewport */
+        height: auto; /* Allow height to adjust proportionally */
+        margin: 10px 0; /* Adjust margin */
+        display: block;
+        background-color: #e8e8e8;
+        box-shadow: 5px 5px 5px #b3b3b3, -5px -5px 5px #fff;
+        border-radius: 10px;
+        padding: 0;
+        overflow: hidden;
+    }
+
         
         * {
             box-sizing: border-box;
